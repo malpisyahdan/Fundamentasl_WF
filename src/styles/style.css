@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #ffe47a;
+}
+
+main {
+  padding: 10px;
+}
+
+movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
